@@ -10,26 +10,33 @@
 </head>
 
 <body>
+    
 
     <header>
         <div>
             <div class="navbar">
+                <h1 class="nick-name">Debargo</h1>
 
                 <nav>
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Skills</a>
-                    <a href="#">Education</a>
-                    <a href="#">Work</a>
-                    <a href="#">Experience</a>
-                    <a href="#">Contact</a>
+                    <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Education</a></li> 
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                   
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
 
                 </nav>
-                <div class="border"></div>
+                
             </div>
+            <div class="border"></div>
 
             <div class="main">
-                <div class="image"><img src="img.png" alt="image" id="img"></div>
+                <div class="image"><img src="/img.png" alt="image" id="img"></div>
                 <h1 class="name">Debarghya Halder</h1>
                 <p class="skill">I'm a Web Developer and Java Developer </p>
             </div>
@@ -198,6 +205,7 @@
     <footer>
 
     </footer>
+    <script src="script.js"></script>
 </body>
 
 
